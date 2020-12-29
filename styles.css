@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Libre+Baskerville:wght@700&display=swap');
+
+body {
+    font-family: Karla, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1544731612-de7f96afe55f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80");
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td {
+    text-align: left;
+}
+
+th {
+    background-color: skyblue;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tag {
+    background-color: beige;
+}
